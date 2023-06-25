@@ -1,0 +1,94 @@
+html, body {
+    margin:0;
+    padding: 0;
+    background-color: #1B1B1B;
+    /* font-family: proximanova-regular-webfont,Arial,sans-serif; */
+    line-height: normal;
+}
+
+.container {
+    width: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #222428;
+    color: white;
+    padding: 0 8px;
+}
+
+.header-cont {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    padding: 8px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    display: inline-block;
+}
+
+.logo svg{
+    width: 100px;
+    height: 26px;
+    margin-top: 6px;
+}
+
+.hamburger-menu, .logo, .search-input{
+    margin-right: 27px;
+}
+
+.hamburger-menu .svg_color {
+    fill: hsla(0, 0%, 100%, .8);
+}
+
+.search-input {
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    border-radius: 30px;
+    padding: 0 10px;
+    flex: 1;
+    color: #8e8e93;
+    background-color: #1B1B1B;
+    font-size: 12px;
+    border: 1px solid hsla(0, 0%, 100%, .1);
+}
+
+.search-input .svg_color{
+    fill: #8e8e93;
+    
+}
+
+.search-input input {
+    background-color: transparent;
+    border: none;
+    height: 38px;
+    outline: none;
+    width: 100%;
+    color: white;
+}
+
+.search-input svg {
+    margin: 0 4px;
+}
+
+.header-btn {
+    background-color: white;
+    color: black;
+    border-radius: 20px;    
+    font-size: 12px;
+    line-height: 10px;
+    padding: 9px 20px 7px;
+    border: 9px 20px 7px;
+    margin-right: 20px;
+}
+
+.login-cta {
+    font-size: 12px;
+    color: hsla(0, 0%, 100%, .75);
+}
